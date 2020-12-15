@@ -7,4 +7,4 @@ git checkout subcrates
 diesel migration run
 yarn install
 yarn build
-cargo build
+cargo build --release
